@@ -1,3 +1,4 @@
+
 body{
   margin: 0;
   padding: 0;
@@ -5,11 +6,17 @@ body{
   padding-left: 80px;
   padding-right: 25px;
   background-color: rgb(244, 243, 243);
+  height: 3000px;
 }
 p{
   font-family: Roboto, Arial;
   margin-top: 0;
   margin-bottom: 0;
+}
+@media (min-width: 1000px){
+ body{
+  padding-left: 150px;
+ }
 }
 
 
